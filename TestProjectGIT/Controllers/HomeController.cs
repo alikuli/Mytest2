@@ -13,6 +13,7 @@ namespace TestProjectGIT.Controllers
         {
             ViewBag.Message = "Your application description page.";
             //this is a test
+            //this is a new test
             return View();
         }
 
