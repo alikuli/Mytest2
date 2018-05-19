@@ -23,5 +23,20 @@ namespace TestProjectGIT.Controllers
 
             return View();
         }
+
+        public ActionResult AliWasHereBusGit()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult AliWasHereOfficeGit()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
