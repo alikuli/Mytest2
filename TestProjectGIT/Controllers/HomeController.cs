@@ -42,7 +42,14 @@ namespace TestProjectGIT.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();}
+     
+        public ActionResult AliWasHereOfficeGit3()
+        {
+            ViewBag.Message = "Your contact page.";
+
             return View();
         }
+
     }
 }
